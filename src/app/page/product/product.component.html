@@ -1,0 +1,37 @@
+<div>
+    <div class="wrapper">
+        <h1 align="center" class="h1-ti">ข้อมูลสินค้า</h1>
+        <img class="user" src="assets\profile\Mask group.png" alt="">
+        <button routerLink="/add" class="btn btn-primary btn-add ">+ เพิ่มข้อมูล</button>
+        <div class="row table-padding">
+            <div class="col">
+                <div class="boxtable" >
+                    <table class="table table-secondary" >
+                        <thead style="padding: 50px;">
+                            <tr class="text">
+                                <th scope="col">ลำดับ</th>
+                                <th scope="col">ยี่ห้อ </th>
+                                <th scope="col">ประเภท</th>
+                                <th scope="col">รสชาติ</th>
+                                <th scope="col">ปริมาณ</th>
+                                <th scope="col">ราคา</th>
+                                <th scope="col">รายละเอียด</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let data of this.list;let i = index">
+                                <th scope="row">{{i+1}}</th>
+                                <td>{{data.name}}</td>
+                                <td>{{data.type}}</td>
+                                <td>{{data.taste}}</td>
+                                <td>{{data.amount}}</td>
+                                <td>{{data.price}}</td>
+                                <td><button type="button" class="btn btn-warning" >เเก้ไข</button> <button type="button" class="btn btn-danger" (click)="delete(i)">ลบข้อมูล</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
