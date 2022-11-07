@@ -1,42 +1,13 @@
 /* Google Fonts - Noto Sans Thai */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap");
 
 * {
-    font-family: 'Noto Sans Thai', sans-serif;
-    padding: 10px;
+  font-family: "Noto Sans Thai", sans-serif;
 }
 
-.h1-ti {
-    padding: 50px;
-}
-
-.user {
-    width: 137px;
-    height: 137px;
-}
-
-.button {
-    transition-duration: 0.4s;
-    border: none;
-}
-
-.button:hover {
-    background-color: #4CAF50;
-    border: none;
-    /* Green */
-    color: white;
-}
-
-.wrapper {
-    border: none;
-
-    margin: 10px 0;
-    padding: 0 10px;
-    font-size: 1rem;
-    outline: none;
-    text-align: center;
-    border-radius: 5px;
-    transition: .5s;
-    cursor: pointer;
-    font-family: 'Noto Sans Thai', sans-serif;
+.container-space {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  /* margin: 10% 10% 10%; */
 }

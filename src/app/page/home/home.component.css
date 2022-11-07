@@ -10,7 +10,6 @@
 body {
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(130deg, #1abc9c, #2ecc71);
 }
 
 div.container {
@@ -49,7 +48,7 @@ h1 {
     font-size: 45px;
     line-height: 54px;
 
-    color: #fff;
+    color: #1abc9c;
 
 }
 
@@ -67,17 +66,17 @@ h2 {
     /* identical to box height */
 
 
-    color: #fff;
-}
-
-.btn-submit {
-    background: #fff;
     color: #1abc9c;
 }
 
-.btn-submit:hover {
-    color: #fff;
+.btn-submit {
     background: #1abc9c;
+    color: #fff;
+}
+
+.btn-submit:hover {
+    color: #1abc9c;
+    background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -114,5 +113,5 @@ h3 {
     line-height: 24px;
     /* identical to box height */
 
-    color: #fff;
+    color: #1abc9c;
 }
